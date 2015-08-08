@@ -64,7 +64,7 @@ body {
   margin: auto;
   height: 550px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+    background-size: cover;
 
 }
 
@@ -225,7 +225,10 @@ ul li {
 }
 
 .footer h1 {
-
+  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
     color: #f9e42e;
 }
 
