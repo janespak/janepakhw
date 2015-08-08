@@ -62,10 +62,17 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 550px;
+  height: 500px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 
+}
+
+h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 
@@ -97,22 +104,10 @@ p {
 
 }
 
-button {
-
-      font-size: 14px;
-      border-radius: 5px;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 600;
-      padding: 5px 25px;
-      background-color: #f9e42e;
-      border-style: none;
-
-
-}
 
 ul {
 
-    list-style-type: circle;
+    list-style-type: disc;
     list-style-position: inside;
     margin-top: 25px;
 }
@@ -127,12 +122,9 @@ ul li {
 }
 
 #container .logo h1 {
-
+    
     padding: 40px 80px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .testimonial .inner .quote {
@@ -149,7 +141,7 @@ ul li {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 26px;
     color: white;
 }
 
@@ -169,10 +161,25 @@ ul li {
       padding: 10px;
 }
 
+.button {
+
+      font-size: 16px;
+      border-radius: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      padding: 5px 25px;
+      background-color: #f9e42e;
+      border-style: none;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+
+}
+
+
 .button-wrap {
 
       text-align: center;
-      margin-top: 50px;
+      margin-top: 40px;
 
 }
 
@@ -207,7 +214,7 @@ ul li {
       color: white;
       background-color: #033048;
       border-style: none;
-      padding: 5px 30px;
+     padding: 7px 30px;
 
 }
 
@@ -219,16 +226,13 @@ ul li {
 .footer {
 
     background-color: #121212;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
 
 }
 
 .footer h1 {
-  
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
+    
     color: #f9e42e;
 }
 
@@ -239,13 +243,14 @@ ul li {
 
 }
 
-.footer .social {
+.footer .social copy {
 
     text-align: center;
     font-size: 9px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: rgb(255,255,255);
+    margin-top: 90px;
 
 
 }
